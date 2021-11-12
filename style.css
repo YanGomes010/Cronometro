@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.max-width {
+    text-align: center;
+    max-width: 250px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #555;
+}
+
+.bg-btn {
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.7s all;
+    margin: 0px 0px 7px 0px;
+}
+
+.bg-btn:hover {
+    background: #333;
+    color: rgb(238, 238, 238);
+}
+
+.bg-iniciar {
+    background: rgb(1, 212, 1);
+    color: rgb(238, 238, 238);
+}
+
+.bg-pausar {
+    background: yellow;
+    color: rgb(0, 0, 0);
+}
+
+.bg-parar {
+    background: rgb(236, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-right: 0px;
+}
+
+.counter {
+    margin-bottom: 10px;
+    font-size: 4rem;
+    font-family: 'Road Rage', cursive;
+    color: white;
+    text-decoration: underline;
+}
